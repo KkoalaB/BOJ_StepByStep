@@ -1,2 +1,9 @@
 # BOJ_StepByStep
-BOJ ë‹¨ê³„ë³„ë¡œ í’€ì–´ë³´ê¸°
+BOJ ´Ü°èº°·Î Ç®¾îº¸±â
+
+---
+
+| ¹øÈ£ | À¯Çü | »óÅÂ | Ç¬ ¹®Á¦ / ¹®Á¦¼ö |
+|:---:|:---:|:---:|:---:|
+|1|[ÀÔÃâ·Â°ú »çÄ¢¿¬»ê](https://www.acmicpc.net/step/1)|<span style="color:green">¿Ï·á</span> | 11 / 11 |
+|2|[if¹®](https://www.acmicpc.net/step/4)|<span style="color:blue">µµÀü Áß</span> | 0 / 5 |
