@@ -18,6 +18,4 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
-    char a;
-    cout << scanf("%c", &a) << endl;
 }
