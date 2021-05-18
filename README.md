@@ -9,4 +9,4 @@
 |4|[while문](https://www.acmicpc.net/step/2)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
 |5|[1차원 배열](https://www.acmicpc.net/step/6)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 7 / 7 |
 |6|[함수](https://www.acmicpc.net/step/5)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
-|7|[문자열](https://www.acmicpc.net/step/7)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 0 / 10 |
+|7|[문자열](https://www.acmicpc.net/step/7)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 5 / 10 |

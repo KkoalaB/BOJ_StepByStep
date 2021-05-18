@@ -18,4 +18,7 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
+    char c[10];
+    scanf("%s", &c);
+    printf("%s\n", c);
 }
