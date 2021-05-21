@@ -7,19 +7,10 @@ int main() {
   char a[4], b[4];
   scanf("%s%s", &a, &b);
 
-  char tmp;
-  tmp = a[3];
-  a[3] = a[0];
-  a[0] = tmp;
-
-  tmp = b[3];
-  b[3] = b[0];
-  b[0] = tmp;
-
-  int A, B;
-  A = stoi(a);
-  B = stoi(b);
-
-  (A > B) ? printf("%d\n", A) : printf("%d\n", B);
+  if(a[2] > b[2]) printf("%c%c%c\n", a[2], a[1], a[0]);
+  else if(a[2] < b[2]) printf("%c%c%c\n", b[2], b[1], b[0]);
+  else if(a[1] > b[1])printf("%c%c%c\n", a[2], a[1], a[0]);
+  else if(a[1] < b[1]) printf("%c%c%c\n", b[2], b[1], b[0]);
+  else if(a[0] > b[0])printf("%c%c%c\n", a[2], a[1], a[0]);
+  else if(a[0] < b[0]) printf("%c%c%c\n", b[2], b[1], b[0]);
 }
-
