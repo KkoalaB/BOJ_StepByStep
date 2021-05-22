@@ -1,12 +1,12 @@
 # BOJ_StepByStep
-## BOJ ë‹¨ê³„ë³„ë¡œ í’€ì–´ë³´ê¸°
+## BOJ ´Ü°èº°·Î Ç®¾îº¸±â
 
-| ë²ˆí˜¸ | ìœ í˜• | ìƒíƒœ | í‘¼ ë¬¸ì œ / ë¬¸ì œìˆ˜ |
+| ¹øÈ£ | À¯Çü | »óÅÂ | Ç¬ ¹®Á¦ / ¹®Á¦¼ö |
 |:---:|:---:|:---:|:---:|
-|1|[ì…ì¶œë ¥ê³¼ ì‚¬ì¹™ì—°ì‚°](https://www.acmicpc.net/step/1)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 11 / 11 |
-|2|[ifë¬¸](https://www.acmicpc.net/step/4)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
-|3|[forë¬¸](https://www.acmicpc.net/step/3)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 11 / 11 |
-|4|[whileë¬¸](https://www.acmicpc.net/step/2)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
-|5|[1ì°¨ì› ë°°ì—´](https://www.acmicpc.net/step/6)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 7 / 7 |
-|6|[í•¨ìˆ˜](https://www.acmicpc.net/step/5)|![ì™„ë£Œ](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
-|7|[ë¬¸ìì—´](https://www.acmicpc.net/step/7)|![ë„ì „ ì¤‘](https://via.placeholder.com/15/0000FF/000000?text=+) | 7 / 10 |
+|1|[ÀÔÃâ·Â°ú »çÄ¢¿¬»ê](https://www.acmicpc.net/step/1)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 11 / 11 |
+|2|[if¹®](https://www.acmicpc.net/step/4)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
+|3|[for¹®](https://www.acmicpc.net/step/3)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 11 / 11 |
+|4|[while¹®](https://www.acmicpc.net/step/2)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
+|5|[1Â÷¿ø ¹è¿­](https://www.acmicpc.net/step/6)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 7 / 7 |
+|6|[ÇÔ¼ö](https://www.acmicpc.net/step/5)|![¿Ï·á](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
+|7|[¹®ÀÚ¿­](https://www.acmicpc.net/step/7)|![µµÀü Áß](https://via.placeholder.com/15/0000FF/000000?text=+) | 9 / 10 |
