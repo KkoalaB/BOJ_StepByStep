@@ -1,7 +1,7 @@
 #include <iostream>
 
 /* STL
-#include <vector>
+#include <vector> // https://blockdmask.tistory.com/70
 #include <list>
 #include <map>
 #include <set>
