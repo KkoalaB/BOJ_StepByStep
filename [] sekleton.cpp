@@ -18,6 +18,8 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
-    int i = 0;
-    if(false && printf("%d\n", i)) ;
+    int i = 4;
+    bool boo = 1;
+
+    printf("%d\n", i+boo);
 }
