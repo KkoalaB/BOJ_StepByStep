@@ -18,8 +18,9 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
-    int i = 4;
-    bool boo = 1;
+    unsigned int a = -1;
+    int b = 1;
+    int c = 3;
 
-    printf("%d\n", i+boo);
+    if(a > (b - 3)) printf("%u\n", a);
 }

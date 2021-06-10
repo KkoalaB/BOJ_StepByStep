@@ -11,4 +11,4 @@
 |6|[함수](https://www.acmicpc.net/step/5)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 3 / 3 |
 |7|[문자열](https://www.acmicpc.net/step/7)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 10 / 10 |
 |8|[기본 수학 1](https://www.acmicpc.net/step/8)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 9 / 9 |
-|9|[기본 수학 2](https://www.acmicpc.net/step/10)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 5 / 11 |
+|9|[기본 수학 2](https://www.acmicpc.net/step/10)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 6 / 11 |
