@@ -11,6 +11,10 @@
 #include <algorithm>
 */
 
+/* math.h
+#define _USE_MATH_DEFINES // need this to use math defines
+#include <math.h>
+*/
 /* 참고
 int: -21억 ~ 21억
 */
