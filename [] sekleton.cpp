@@ -15,8 +15,10 @@
 #define _USE_MATH_DEFINES // need this to use math defines
 #include <math.h>
 */
+
 /* 참고
 int: -21억 ~ 21억
+백준에서 fflush 같은거 안됨
 */
 
 using namespace std;
