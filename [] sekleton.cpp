@@ -11,6 +11,23 @@
 #include <algorithm>
 */
 
+/* 정렬 함수
+// Insertion sort
+void insertionSort(int arr[], int size) {
+    int tmp;
+    for(int i = 0; i < size - 1; i++) {
+        for(int j = i+1; j < size; j++) {
+            if(arr[i] < arr[j]) {
+                tmp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = tmp;
+            }
+        }
+    }
+}
+
+*/
+
 /* math.h
 #define _USE_MATH_DEFINES // need this to use math defines
 #include <math.h>
