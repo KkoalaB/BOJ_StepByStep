@@ -14,7 +14,7 @@ int main() {
     }
 
     // »ê¼úÆò±Õ
-    printf("%.0lf\n", (double)sum/(double)N);
+    printf("%.0lf\n", (double)sum/N);
 
     // Áß¾Ó°ª
     for(int acc = 0, i = 0; i < 8001; i++) {
@@ -27,7 +27,7 @@ int main() {
 
     // ÃÖºó°ª
     int mode, max = 8000;
-    for(int i = 8000; i-- > 0;) {
+    for(int i = 8001; i-- > 0;) {
         if(count[max] < count[i]) {
             mode = i;
             max = i;
@@ -39,7 +39,7 @@ int main() {
     printf("%d\n", mode - 4000);
 
     // ¹üÀ§
-    for(int i = 8000; i-- > 0;) {
+    for(int i = 8001; i-- > 0;) {
         if(count[i] > 0) {
             max = i;
             break;
