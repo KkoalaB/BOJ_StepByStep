@@ -1,4 +1,5 @@
 #include <iostream>
+#include <utility> // pair
 
 /* STL
 #include <vector> // https://blockdmask.tistory.com/70
@@ -82,9 +83,9 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
-    unsigned int a = -1;
-    int b = 1;
-    int c = 3;
+    pair<int, int> a, b;
+    a = make_pair(1, 5);
+    b = make_pair(1, 3);
 
-    if(a > (b - 3)) printf("%u\n", a);
+    printf("%s", a<b?"A\n":"B\n");
 }
