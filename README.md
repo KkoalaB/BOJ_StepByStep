@@ -14,4 +14,7 @@
 |9|[기본 수학 2](https://www.acmicpc.net/step/10)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 11 / 11 |
 |10|[재귀](https://www.acmicpc.net/step/19)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 4 / 4 |
 |11|[브루트 포스](https://www.acmicpc.net/step/22)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
-|12|[정렬](https://www.acmicpc.net/step/9)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 5 / 10 |
+|12|[정렬](https://www.acmicpc.net/step/9)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 7 / 10 |
+
+## 블로그
+https://velog.io/@kkoala
