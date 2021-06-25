@@ -1,14 +1,13 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
 
 using namespace std;
 
 bool comp(string a, string b) {
-    if(a.length() == b.length())
-        a < b;
-    else a.length() < b.length();
+    if(a.length() == b.length()) // 길이가 같으면 사전순
+        return a < b;
+    else return a.length() < b.length(); // 길이가 짧은 순서로
 }
 
 int main() {
@@ -16,6 +15,7 @@ int main() {
     string tmp;
     vector<string> arr;
 
+    /* 입력 */
     scanf("%d", &N);
 
     for(int i = 0; i < N; i++) {
@@ -23,9 +23,11 @@ int main() {
         arr.push_back(tmp);
     }
 
-    sort(arr.begin(), arr.end(), comp);
-    unique(arr.begin(), arr.end());
+    /* 풀이 */
+    sort(arr.begin(), arr.end(), comp); // 정렬
+    arr.erase(unique(arr.begin(), arr.end()), arr.end()); // 중복 제거
 
+    /* 출력 */
     for(int i = 0; i < arr.size(); i++) {
         cout << arr[i] << "\n";
     }
