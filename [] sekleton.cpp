@@ -83,6 +83,10 @@ int: -21¾ï ~ 21¾ï
 using namespace std;
 
 int main() {
+    ios_base :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
     pair<int, int> a, b;
     a = make_pair(1, 5);
     b = make_pair(1, 3);
