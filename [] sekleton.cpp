@@ -1,11 +1,12 @@
-/*****************************
+/*
  * Author: Byeongmin Ryoo
  * Blog: https://velog.io/@kkoala
  * Contact: bmformail@naver.com
- *****************************/
+ */
 
 #include <iostream>
 #include <utility> // pair
+#include <algorithm>
 
 /* STL
 #include <vector> // https://blockdmask.tistory.com/70
@@ -14,30 +15,29 @@
 #include <set>
 */
 
-/* Algorithm
-#include <algorithm>
-*/
-
 /* math.h
 #define _USE_MATH_DEFINES // need this to use math defines
 #include <math.h>
 */
 
-/* 참고
-int: -21억 ~ 21억
-백준에서 fflush 같은거 안됨
-*/
-
 using namespace std;
 
+/* 조건 */
+
+/* 변수 */
+
+/* 함수 */
+
 int main() {
+    /* Fast cin cout */
     ios_base :: sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
+    /*****************/
 
-    pair<int, int> a, b;
-    a = make_pair(1, 5);
-    b = make_pair(1, 3);
+    /* 입력 */
 
-    printf("%s", a<b?"A\n":"B\n");
+    /* 풀이 */
+
+    /* 출력 */
 }
