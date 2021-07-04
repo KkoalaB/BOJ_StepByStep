@@ -16,7 +16,7 @@
 |11|[브루트 포스](https://www.acmicpc.net/step/22)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
 |12|[정렬](https://www.acmicpc.net/step/9)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 10 / 10 |
 |13|[집합과 맵](https://www.acmicpc.net/step/49)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 0 / 0 |
-|14|[백트래킹](https://www.acmicpc.net/step/34)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 4 / 8 |
+|14|[백트래킹](https://www.acmicpc.net/step/34)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 5 / 8 |
 
 ## 블로그
 https://velog.io/@kkoala
