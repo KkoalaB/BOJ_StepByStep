@@ -6,5 +6,5 @@
 using namespace std;
 
 int main() {
-    
+    cout << min(12, 42) << endl;
 }

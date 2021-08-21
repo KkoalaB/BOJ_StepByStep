@@ -20,6 +20,10 @@
 #include <math.h>
 */
 
+/* 배열 초기화 memset
+    memset(arr, 0, sizeof(arr));
+*/
+
 using namespace std;
 
 /* 조건 */
