@@ -21,6 +21,7 @@
 */
 
 /* 배열 초기화 memset
+    #include <cstring>
     memset(arr, 0, sizeof(arr));
 */
 
