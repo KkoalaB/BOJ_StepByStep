@@ -17,14 +17,15 @@ int N;
 int wine[MAX_N], memo[MAX_N];
 
 /* 함수 */
+int max3(int a, int b, int c) {
+    return max(a, max(b, c));
+}
+
 int dp(int idx) {
-    if(idx > N) return 0;
-    if(memo[idx] > -1) return memo[idx];
-    int max_score = -1;
-    for(int i = idx; i < N; i++) {
-        if(max < )
-    }
-    return ret = wine[idx] + max(wine[idx+1] + dp(idx+3), max(dp(idx+2), dp(idx+3)));
+    if(idx < 0) return 0;
+    int& ret = memo[idx];
+    if(ret > -1) return ret;
+    return ret = max3(dp(idx-1), wine[idx] + dp(idx-2), wine[idx] + wine[idx-1] + dp(idx-3));
 }
 
 int main() {
@@ -44,5 +45,5 @@ int main() {
     memset(memo, -1, sizeof(memo));
 
     /* 출력 */
-    cout << dp(0) << '\n';
+    cout << dp(N-1) << '\n';
 }
