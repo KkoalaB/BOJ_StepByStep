@@ -5,45 +5,40 @@
  */
 
 #include <iostream>
-#include <cstring> // memset
+#include <utility> // pair
+#include <algorithm>
 
 using namespace std;
 
 /* 조건 */
-#define MAX_N 10001
+#define MAX_N 1001
+#define MAX_A 1001
 
 /* 변수 */
-int N;
-int seq[MAX_N], memo[MAX_N];
-
-/* 함수 */
-int max3(int a, int b, int c) {
-    return max(a, max(b, c));
-}
-
-int dp(int idx) {
-    if(idx < 0) return 0;
-    int& ret = memo[idx];
-    if(ret > -1) return ret;
-    return ret = max3(dp(idx-1), seq[idx] + dp(idx-2), seq[idx] + seq[idx-1] + dp(idx-3));
-}
+int N, arr[MAX_N], dp[MAX_N];
+int max = 1;
 
 int main() {
-    /* Fast cin cout */
-    ios_base :: sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-    /*****************/
+    scanf("%d", &N);
 
-    /* 입력 */
-    cin >> N;
     for(int i = 0; i < N; i++) {
-        cin >> seq[i];
+        scanf("%d", &k);
+        arr[i] = k;
     }
 
-    /* 풀이 */
-    memset(memo, -1, sizeof(memo));
+    for (int i = 0; i < N; i++) {
+        dp[i] = 1;
+        for(int j = 0; j < i; j++) {
+            if(arr[j] < arr[i] && dp[j]+1 > dp[i]) {
+                dp[i] = dp[j] + 1;
+                if(max < dp[i]) {
+                    max = dp[i];
+                }
+            }
+        }
+    }
 
-    /* 출력 */
-    cout << dp(N-1) << '\n';
+    printf("%d", max);
+
+    return 0;
 }

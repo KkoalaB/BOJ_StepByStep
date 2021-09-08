@@ -1,3 +1,5 @@
 #ignore exe files
 *.exe
 *.json
+notepad.txt
+test.cpp
