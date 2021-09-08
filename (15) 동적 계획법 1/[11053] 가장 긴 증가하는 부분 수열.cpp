@@ -5,8 +5,6 @@
  */
 
 #include <iostream>
-#include <utility> // pair
-#include <algorithm>
 
 using namespace std;
 
@@ -16,29 +14,35 @@ using namespace std;
 
 /* º¯¼ö */
 int N, arr[MAX_N], dp[MAX_N];
-int max = 1;
+int result = 1; // ÃÖ´ñ°ª
 
 int main() {
-    scanf("%d", &N);
+    /* Fast cin cout */
+    ios_base :: sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    /*****************/
+    cin >> N;
 
     for(int i = 0; i < N; i++) {
-        scanf("%d", &k);
-        arr[i] = k;
+        cin >> arr[i];
     }
 
-    for (int i = 0; i < N; i++) {
+    for(int i = 0; i < MAX_N; i++)
         dp[i] = 1;
+
+    for (int i = 0; i < N; i++) {
         for(int j = 0; j < i; j++) {
             if(arr[j] < arr[i] && dp[j]+1 > dp[i]) {
                 dp[i] = dp[j] + 1;
-                if(max < dp[i]) {
-                    max = dp[i];
+                if(result < dp[i]) {
+                    result = dp[i];
                 }
             }
         }
     }
 
-    printf("%d", max);
+    cout << result << '\n';
 
     return 0;
 }

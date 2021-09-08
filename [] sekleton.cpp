@@ -21,6 +21,7 @@
 */
 
 /* 배열 초기화 memset
+    //byte-by-byte라서 int는 -1이나 0이 아니면 안됨
     #include <cstring>
     memset(arr, 0, sizeof(arr));
 */
