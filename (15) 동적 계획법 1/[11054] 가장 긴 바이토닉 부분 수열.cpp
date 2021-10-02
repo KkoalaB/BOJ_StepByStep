@@ -38,10 +38,13 @@ int main() {
             if(arr[j] < arr[i] && dp[j][0] >= dp[i][0])
                 dp[i][0] = dp[j][0] + 1;
         }
-        for(int j = N-1; j > N-2-i; j--) {
-            if(arr[j] < arr[N-2-i] && dp[j][1] >= dp[N-2-i][1])
-                dp[N-2-i][1] = dp[j][1] + 1;
+        for(int j = N-1; j > N-1-i; j--) {
+            if(arr[j] < arr[N-1-i] && dp[j][1] >= dp[N-1-i][1])
+                dp[N-1-i][1] = dp[j][1] + 1;
         }
+    }
+
+    for(int i = 0; i < N; i++) {
         if(result < dp[i][0] + dp[i][1])
             result = dp[i][0] + dp[i][1];
     }
