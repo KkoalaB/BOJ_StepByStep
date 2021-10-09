@@ -5,34 +5,34 @@
  */
 
 #include <iostream>
-#include <utility> // pair
-#include <algorithm>
-
-/* STL
-#include <vector> // https://blockdmask.tistory.com/70
-#include <list>
-#include <map>
-#include <set>
-*/
-
-/* math.h
-#define _USE_MATH_DEFINES // need this to use math defines
-#include <math.h>
-*/
-
-/* 배열 초기화 memset
-    //byte-by-byte라서 int는 -1이나 0이 아니면 안됨
-    #include <cstring>
-    memset(arr, 0, sizeof(arr));
-*/
+#include <string>
 
 using namespace std;
 
 /* 조건 */
+#define MAX_N 1001
 
 /* 변수 */
+string X, Y;
+int dp[MAX_N][MAX_N];
 
 /* 함수 */
+void init() {
+    for(int i = 0; i < MAX_N; i++)
+        for(int j = 0; j < MAX_N; j++)
+            dp[i][j] = -1;
+}
+
+int LCS(int i, int j) {
+    if(i < 0 || j < 0) return 0;
+
+    int& ret = dp[i][j];
+    if(ret > -1) return ret;
+
+    if(X[i] == Y[j])
+        return ret = LCS(i-1, j-1) + 1;
+    else return ret = max(LCS(i-1, j), LCS(i, j-1));
+}
 
 int main() {
     /* Fast cin cout */
@@ -42,8 +42,11 @@ int main() {
     /*****************/
 
     /* 입력 */
+    cin >> X;
+    cin >> Y;
 
     /* 풀이 */
+    init();
 
-    /* 출력 */
+    cout << LCS(X.length() - 1, Y.length() - 1) << '\n';
 }
