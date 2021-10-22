@@ -50,10 +50,27 @@ ULONG_MAX   unsigned long int의 최대값
 using namespace std;
 
 /* 조건 */
+#define MAX_N 100001
 
 /* 변수 */
+int N, result = INT_MIN;
+int input[MAX_N];
 
 /* 함수 */
+int dp(int i) {
+    if(i == 0) {
+        return result = input[0];
+        return result > 0 ? result : 0;
+    }
+
+    int tmp = dp(i-1) + input[i];
+    if(result < input[i]) result = input[i];
+    if(tmp > 0) {
+        if(result < tmp) result = tmp;
+        return tmp;
+    }
+    else return 0;
+}
 
 int main() {
     /* Fast cin cout */
@@ -63,8 +80,13 @@ int main() {
     /*****************/
 
     /* 입력 */
+    cin >> N;
+    for(int i = 0; i < N; i++)
+        cin >> input[i];
 
     /* 풀이 */
+    dp(N-1);
 
     /* 출력 */
+    cout << result << '\n';
 }
