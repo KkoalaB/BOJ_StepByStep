@@ -58,7 +58,7 @@ using namespace std;
 /* 변수 */
 int N, K;
 int W[MAX_N], V[MAX_N];
-int result = 0;
+int memo[MAX_N][MAX_K];
 
 /* 함수 */
 int dp(int n, int k) {
@@ -66,9 +66,11 @@ int dp(int n, int k) {
         if(k >= W[n]) return V[n];
         return 0;
     }
-    
-    if(K < W[n]) return dp(n-1, k);
-    return max(dp(n-1, k-W[n]) + V[n], dp(n-1, k));
+
+    int& ret = memo[n][k];
+    if(ret > -1) return ret;
+    if(k < W[n]) return ret = dp(n-1, k);
+    return ret = max(dp(n-1, k-W[n]) + V[n], dp(n-1, k));
 }
 
 int main() {
@@ -84,8 +86,10 @@ int main() {
         cin >> W[i] >> V[i];
     }
 
-    /* 풀이 */
-
-    /* 출력 */
+    /* 풀이 및 출력 */
+    for(int i = 0; i < MAX_N; i++) {
+        for(int j = 0; j < MAX_K; j++)
+            memo[i][j] = -1;
+    }
     cout << dp(N-1, K) << '\n';
 }
