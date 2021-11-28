@@ -18,7 +18,8 @@
 |13|[집합과 맵](https://www.acmicpc.net/step/49)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 0 / 0 |
 |14|[백트래킹](https://www.acmicpc.net/step/34)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 8 / 8 |
 |15|[동적 계획법1](https://www.acmicpc.net/step/16)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 16 / 16 |
-|16|[그리디 알고리즘](https://www.acmicpc.net/step/33)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 4 / 5 |
+|16|[그리디 알고리즘](https://www.acmicpc.net/step/33)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
+|17|[정수론 및 조합론](https://www.acmicpc.net/step/18)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 1 / 12 |
 
 ## 블로그
 https://velog.io/@kkoala
