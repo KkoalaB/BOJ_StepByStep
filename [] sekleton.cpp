@@ -27,7 +27,7 @@
     memset(arr, 0, sizeof(arr));
 */
 
-#include <climits>
+//#include <climits>
 /* <climits>
 CHAR_BIT    char의 비트 수
 SCHAR_MIN   signed char의 최소값
