@@ -17,7 +17,7 @@ int LCM(int a, int b) {
 int combination(int n, int k) {
     int C[0][0]; // 사용시 이 부분 지우고 전역으로 C[][] 배열 선언 필요
     if(C[n][k] > 0) return C[n][k];
-    if(C[n][n-k] > 0) return C[n][k] = C[n][n-k];
+    if(C[n][n-k] > 0) return C[n][k] = C[n][n-k]; // 작으면 오히려 필요없음
     if(n == 0) return C[n][k] = 0;
     if(n == k) return C[n][k] = 1;
     if(k == 0) return C[n][k] = 1;

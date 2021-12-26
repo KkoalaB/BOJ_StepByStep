@@ -5,14 +5,16 @@
  */
 
 #include <iostream>
-#include <utility> // pair
-#include <algorithm>
+//#include <utility> // pair
+//#include <algorithm>
 
 /* STL
 #include <vector> // https://blockdmask.tistory.com/70
 #include <list>
-#include <map>
+#include <map> // https://blockdmask.tistory.com/87
 #include <set>
+#include <stack>
+#include <queue>
 */
 
 /* math.h
