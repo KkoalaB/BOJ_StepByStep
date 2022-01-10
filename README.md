@@ -20,7 +20,8 @@
 |15|[동적 계획법1](https://www.acmicpc.net/step/16)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 16 / 16 |
 |16|[그리디 알고리즘](https://www.acmicpc.net/step/33)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 5 / 5 |
 |17|[정수론 및 조합론](https://www.acmicpc.net/step/18)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 12 / 12 |
-|18|[스택](https://www.acmicpc.net/step/18)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 3 / 6 |
+|18|[스택](https://www.acmicpc.net/step/11)|![완료](https://via.placeholder.com/15/008000/000000?text=+) | 6 / 6 |
+|19|[큐, 덱](https://www.acmicpc.net/step/12)|![도전 중](https://via.placeholder.com/15/0000FF/000000?text=+) | 0 / 7 |
 
 ## 블로그
 https://velog.io/@kkoala
