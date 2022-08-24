@@ -1,0 +1,9 @@
+int size() {
+    if(front < rear) return rear - front;
+    else return MAX_SIZE - front + rear + 1;
+}
+
+bool empty() {
+    if(front == rear) return true;
+    return false;
+}
